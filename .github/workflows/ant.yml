@@ -26,4 +26,4 @@ jobs:
       with:
           node-version: '20'
     - name: Build with Ant
-      run: ant -lib yuicompressor-2.4.8.jar -f build.xml
+      run: ant -lib yuicompressor-2.4.8.jar -f compile/build.xml
